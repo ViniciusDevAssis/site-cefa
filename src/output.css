@@ -562,35 +562,12 @@ video {
   margin: 0.25rem;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
 .m-10 {
   margin: 2.5rem;
 }
 
 .m-auto {
   margin: auto;
-}
-
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .flex {
@@ -601,16 +578,8 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .bg-bluecefa {
