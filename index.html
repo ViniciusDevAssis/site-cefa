@@ -7,11 +7,11 @@
     <title>CEFA - Conselho Esportivo de Futebol e Amigos</title>
 </head>
 <body class="bg-redcefa">
-    <header class="flex justify-between items-center px-20 py-6 bg-bluecefa font-poppins font-extrabold">
+    <header class="flex items-center justify-between px-20 py-3 font-extrabold bg-bluecefa font-poppins">
         <a href="index.html">
-            <img src="imgs/cefa-logo-removebg.png" alt="CEFA" width="64px" height="64px">
+            <img class="p-0 m-0" src="imgs/cefa-logo-removebg.png" alt="CEFA" width="128px" height="128px">
         </a>
-        <nav class="text-white text-xl">
+        <nav class="text-xl text-white bg-bluecefa">
             <a class="px-8" href="#home">CEFA</a>
             <a class="px-8" href="#membros">Membros</a>
             <a class="px-8" href="#arquivo">Arquivo</a>
@@ -20,57 +20,77 @@
     </header>
 
     <main>
-        <section class="flex font-roboto text-white relative" id="home">
-            <img class="bg-bluecefa m-1" src="imgs/cefa-logo-removebg.png" alt="" width="380" height="380">
-
-            <div class="m-auto">
-                <h1 class="flex font-semibold m-10 text-4xl">CEFA - Conselho Esportivo de Futebol e Amigos</h1>
-                <p class="text-xl m-10">
+        <section class="relative flex text-white font-roboto" id="home">
+            
+            <div class="p-12 m-1 bg-bluecefa">
+                <h1 class="flex m-10 text-4xl font-semibold">CEFA - Conselho Esportivo de Futebol e Amigos</h1>
+                <p class="m-10 text-xl">
                     Na CEFA, respiramos o espírito apaixonado do esporte, alimentando uma comunidade unida por
                     nossa paixão pelo futebol e pelo companherismo. Somos mais do que uma entidade esportiva,
                     somos uma família que celebra a competição saudável, divertida, amistosa e integra.
                 </p>
-                <p class="text-xl m-10">
+                <p class="m-10 text-xl">
                     Acreditamos que o esporte vai além das quatro linhas. Aqui, encontramos amigos e construímos
                     laços que vão além do resultado de um jogo.
                 </p>
             </div>
+            
+            <img class="m-1 bg-bluecefa" src="imgs/cefa-logo-removebg.png" alt="" width="380" height="380">
         </section>
 
-        <section id="membros">
-            <div>
-                <h2>Membros</h2>
-                <h3>Fundadores:</h3>
-                <ul>
-                    <li><a href="https://www.instagram.com/viniciusdevassis.ig" target="_blank">Vinícius de Assis</a></li>
-                    <li><a href="https://www.instagram.com/pedro_burity23" target="_blank">Pedro Burity</a></li>
+        <section class="flex m-1 bg-bluecefa" id="membros">
+            <div class="p-12 m-1">
+                <h2 class="mb-4 text-3xl font-bold text-white">Membros</h2>
+                <ul class="mb-4 ml-5 text-xl font-semibold list-disc">
+                    
+                    <li class="m-2">
+                        <a href="https://www.instagram.com/viniciusdevassis.ig" target="_blank" class="text-blue-500 hover:bg-ciancefa">Vinícius de Assis (Fundador)</a>
+                    </li>
+                    
+                    <li class="m-2">
+                        <a href="https://www.instagram.com/pedro_burity23" target="_blank" class="text-blue-500 hover:bg-ciancefa">Pedro Burity (Fundador)</a>
+                    </li>
+
+                    <li class="m-2">
+                        <a href="https://www.instagram.com/vitor7ima" target="_blank" class="text-blue-500 hover:bg-ciancefa">Vitor Lima (Conselheiro)</a>
+                    </li>
+                    
+                    <li class="m-2">
+                        <a href="https://www.instagram.com/suzarte__emanuel" target="_blank" class="text-blue-500 hover:bg-ciancefa">Emanuel Suzarte (Conselheiro)</a>
+                    </li>
+                    
+                    <li class="m-2">
+                        <a href="https://www.instagram.com/joaou.lucass" target="_blank" class="text-blue-500 hover:bg-ciancefa">João Lucas Rodrigues (Conselheiro)</a>
+                    </li>
+                    
+                    <li class="m-2">
+                        <a href="https://www.instagram.com/mesaquino" target="_blank" class="text-blue-500 hover:bg-ciancefa">Mesaque Aquino (Conselheiro)</a>
+                    </li>
+                    
                 </ul>
-                <h3>Conselheiros:</h3>
-                <ul>
-                    <li><a href="https://www.instagram.com/vitor7ima" target="_blank">Vitor Lima</a></li>
-                    <li><a href="https://www.instagram.com/suzarte__emanuel" target="_blank">Emanuel Suzarte</a></li>
-                    <li><a href="https://www.instagram.com/joaou.lucass" target="_blank">João Lucas Rodrigues</a></li>
-                    <li><a href="https://www.instagram.com/mesaquino" target="_blank">Mesaque Aquino</a></li>
-                </ul>
-                <p>
+                <p class="mt-6 text-lg font-semibold text-white">
                     Nossa missão é promover a competição com base na ética, no fair play e na camaradagem.
                     Buscamos não apenas a vitória, mas sim a conquista obtida com alegria, honra e respeito mútuo.
                 </p>
             </div>
         </section>
 
-        <section id="arquivo">
-            <h2>Histórico de competições</h2>
-            <h4>Nessa seção você pode ver detalhes das competições que já ocorreram.*</h4>
-            <p>
-                *As edições 1 e 2 terão apenas a divulgação do pódio, informações detalhadas somente a partir da edição 3.
-            </p>
+        <section class="block m-1 bg-bluecefa" id="arquivo">
+            <div class="p-12 m-1">
+                <h2 class="mb-4 text-3xl font-bold text-white">Histórico de competições</h2>
+                <h4 class="mb-4 text-3xl font-bold text-white">Nessa seção você pode ver detalhes das competições que já ocorreram.*</h4>
+                <p class="mt-6 text-lg font-semibold text-white">
+                    *As edições 1 e 2 terão apenas a divulgação do pódio, informações detalhadas somente a partir da edição 3.
+                </p>
+            </div>
         </section>
 
-        <section id="campeonato">
-            <h2>CEFA Non Champions League</h2>
-            <p>A 5ª edição do nosso campeonato, que será realizado no dia 15/11/2024.</p>
-            <p>Serão ao todo 15 participantes, todos em busca do mesmo objetivo, ganhar o tão desejado título. Em breve mais informações <a href="">aqui</a></p>
+        <section class="block m-1 bg-bluecefa" id="campeonato">
+            <div class="p-12 m-1">
+                <h2 class="mb-4 text-3xl font-bold text-white">CEFA Non Champions League</h2>
+                <p class="mt-6 text-lg font-semibold text-white">A 5ª edição do nosso campeonato, que será realizado no dia 15/11/2024.</p>
+                <p class="mt-6 text-lg font-semibold text-white">Serão ao todo 15 participantes, todos em busca do mesmo objetivo, ganhar o tão desejado título. Em breve mais informações <a href="" class="text-blue-500 hover:bg-ciancefa">aqui</a></p>
+            </div>
         </section>
     </main>
     
